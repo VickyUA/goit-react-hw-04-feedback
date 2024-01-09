@@ -1,0 +1,32 @@
+ul {
+  list-style: none;
+}
+
+.feedback {
+  width: 500px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(14, 197, 197);
+  border-radius: 15px;
+  margin-top: 20px;
+  margin-bottom: 15px;
+}
+
+.buttonList {
+  display: flex;
+  gap: 15px;
+  padding-inline-start: 0;
+}
+
+.btn {
+  text-transform: capitalize;
+  width: 70px;
+  padding: 5px;
+  border-radius: 15px;
+}
+.title {
+  font-size: 22px;
+  margin-bottom: 10px;
+}
